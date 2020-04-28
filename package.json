@@ -1,0 +1,23 @@
+{
+  "name": "ahj-7-3-serv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "author": "tigerminde",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^1.0.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^3.4.0"
+  }
+}
